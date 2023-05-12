@@ -1,4 +1,4 @@
-# IaC 1
+# IaC 1 - Gerenciando Usuários no Linux
 
 Script de criação de estrutura de usuários, diretórios e permissões criado durante o Bootcamp Cloud AWS realizado pela [Digital Innovation One](https://www.dio.me/)
 
@@ -26,6 +26,19 @@ Dentro do script devem ser executadas as seguintes ações:
 - em seguinda adicione os usuários josefina, amanda e rogerio ao grupo GRP_SEC.
 
 **Observação: Para cada ação dentro do script execute um echo antes informando o que esta ocorrendo**
+
+Devem ser definidas as seguintes regras de permissão de acesso:
+
+- O dono de todos os diretórios criados será o usuário ```root```.
+- Todos os usuários devem ter permissão de acesso total ao diretório ```/publico```.
+- Os usuários de cada grupo devem ter permissão total dentro de seu respectivo diretório.
+- Os usuários não poderáo ter permissão de leitura, escrita e execução em diretórios de departamentos aos quais eles não pertencem.
+
+Após criar o script ele deve ser alterado para um arquivo executável.
+
+```
+chmod +x iac1.sh
+```
 
 ## Principais comandos
 
