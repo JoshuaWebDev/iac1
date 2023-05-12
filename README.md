@@ -2,6 +2,18 @@
 
 Script de criação de estrutura de usuários, diretórios e permissões criado durante o Bootcamp Cloud AWS realizado pela [Digital Innovation One](https://www.dio.me/)
 
+## Cenário
+
+Existem 3 grupos em uma instituição:
+
+- GRP_ADM (Administração)
+- GRP_VEN (Vendas)
+- GRP_SEC (Secretaria)
+
+Devem ser criados os usuários, grupos e diretórios conforme a imagem a seguir:
+
+<img src="study_case.png">
+
 ## Instruções para criação do script
 
 Dentro do script devem ser executadas as seguintes ações:
